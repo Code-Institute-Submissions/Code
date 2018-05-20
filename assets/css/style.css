@@ -174,10 +174,13 @@ padding-top: 50px;
 
 
 /*--------------------------------hover.css*/
-.hvr-sweep-to-bottom:before {
+.hvr-sweep-to-bottom {
     background: rgba(0,0,0,0.2);
     height: 120px;
-    
+     transition: all 0.7s ease-in;
+    -moz-transition: 0.7s ease-in;
+    -webkit-transition: all 0.7s ease-in;
+    -o-transition: all 0.7s ease-in;   
 }
 
 /*--------------------------------Footer*/
@@ -199,10 +202,10 @@ footer .youtube-link i{
 
 footer .youtube-link i:hover{
     color: #ff0022;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 
@@ -221,10 +224,10 @@ footer .youtube-link i:hover{
     text-align: center;
     color: #fafafa;
     background:#8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
     
 }
 
