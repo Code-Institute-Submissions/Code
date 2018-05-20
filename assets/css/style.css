@@ -2,7 +2,7 @@
 /*--------------------------------colors*/
 
 .bg-color-name-title{
-    background-color: #676767;    
+    background-color: #186829;    
 }
 
 .bg-color-personal-info{
@@ -17,17 +17,21 @@
     background:#9b59b6;
 }
 
-.ui-menu-color-home{
-    background-color: #e67e22;
+.bg-color-contact{
+    background-color: #ffffff;
 }
-.ui-menu-color-resume{
-    background-color: #9b59b6;
+
+.ui-menu-color-home{
+    background-color: #bc1621;
+}
+.ui-menu-color-history{
+    background-color: #360f6d;
 }
 .ui-menu-color-contact{
     background-color: #3498db;
 }
 .ui-menu-color-download{
-    background-color: #525252;
+    background-color: #687fa5;
 }
 
 body{
@@ -72,10 +76,17 @@ h4{
 .row-table{
     display: table;
 }
-
+.past-events-heading{
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top:25px;
+    margin-bottom: 40px; 
+}
 .history-heading,
 .section-heading{
-    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     margin-top:25px;
     margin-bottom: 40px;
@@ -88,7 +99,7 @@ header{
 }
 
 .logo { 
-    background:url("../images/future.jpg");
+    background:url("../images/monkees.jpg");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,22 +183,22 @@ padding-top: 50px;
 /*--------------------------------Footer*/
 
 footer{
-    background-color: #525252;
+    background-color: #186829;
     color: #fafafa;
     min-height:120px;
     margin:0;
 }
 
 
-footer .cv-pdf i{
+footer .youtube-link i{
     color:#fafafa;
     text-align: center;
-    font-size: 18px;
+    font-size: 28px;
     padding-left: 5px;
 }
 
-footer .cv-pdf i:hover{
-    color: #e84610;
+footer .youtube-link i:hover{
+    color: #ff0022;
     transition: all 0.35s ease-in-out;
     -moz-transition: 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -218,7 +229,7 @@ footer .cv-pdf i:hover{
 }
 
 .social-links li a i:hover{
-    background: #e84610;
+    background: #cfdb8e;
 }
 
 #footer-details{
@@ -347,6 +358,28 @@ footer .cv-pdf i:hover{
     margin-bottom: 30px;
 }
 
+/*--------------------------------Contact*/
+
+.contact-heading{
+    font-family:"Exo" , sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color:#fafafa;
+}
+
 /*--------------------------------Media Queries*/
 
 @media(min-width:992px){
@@ -355,5 +388,39 @@ footer .cv-pdf i:hover{
     float:none;
     display:table-cell; 
     }
+
+    .center-form{
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+}    
+    
+}
+
+/*--------------------------------Image gallery*/
+
+
+
+
+.gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+    height: 240px;
+}
+
+.gallery:hover {
+    border: 0px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
 }
 
