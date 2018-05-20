@@ -5,11 +5,11 @@
     background-color: #186829;    
 }
 
-.bg-color-personal-info{
+.bg-color-background-info{
     background-color: #f4f4f4;
 }
 
-.bg-color-three-reasons{
+.bg-color-content{
     background-color: #ffffff;
 }
 
@@ -64,13 +64,6 @@ h4{
 .inline-block {
     display: inline-block;
 }
-
-
-/*.section-column{
-    padding:0 30px 30px;
-    float: none;
-    display: table-cell;
-}*/
 
 
 .row-table{
@@ -175,8 +168,7 @@ padding-top: 50px;
 
 /*--------------------------------hover.css*/
 .hvr-sweep-to-bottom {
-    background: rgba(0,0,0,0.2);
-    height: 120px;
+     height: 120px;
      transition: all 0.7s ease-in;
     -moz-transition: 0.7s ease-in;
     -webkit-transition: all 0.7s ease-in;
@@ -188,7 +180,7 @@ padding-top: 50px;
 footer{
     background-color: #186829;
     color: #fafafa;
-    min-height:120px;
+    min-height:100px;
     margin:0;
 }
 
@@ -202,10 +194,10 @@ footer .youtube-link i{
 
 footer .youtube-link i:hover{
     color: #ff0022;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 
@@ -243,36 +235,36 @@ footer .youtube-link i:hover{
 
 
 /*--------------------------------Three reasons*/
-.three-reasons-icon{
+.content-icon{
     font-size: 26px;
     color:#e67e22;
 }
 
-.three-reasons-heading{
+.content-heading{
     margin-bottom: 15px;
     
 }
 
 
-/*--------------------------------Personal Info*/
-.personal-info-item{
+/*--------------------------------Background Info*/
+.background-info-item{
     margin-bottom: 20px;
     display:block;
     clear:both;
 }
 
-.personal-info-item .key,
-.personal-info-item .value{
+.background-info-item .key,
+.background-info-item .value{
     padding-right: 8px;
     
 }
 
-.personal-info-item .key p,
-.personal-info-item .value p{
+.background-info-item .key p,
+.background-info-item .value p{
     margin:0;
     
 }
-.personal-info-item .key{
+.background-info-item .key{
     display:inline-block;
     width:30%;
     margin-right: 21px;
@@ -281,75 +273,17 @@ footer .youtube-link i:hover{
     
 }
 
-.personal-info-item .key p{
+.background-info-item .key p{
     font-weight: 700;
     
 }
 
-.personal-info-item .value {
+.background-info-item .value {
     display: inline-block;
     position: relative;
     width: 60%;
 }
 
-
-/*--------------------------------Skills*/
-.progress{
-    position: relative;
-    height:25px;
-}
-
-.progress-type{
-    position: absolute;
-    left:0px;
-    font-weight:400;
-    padding: 3px 30px 2px 10px;
-    color: #fafafa;
-    background-color: rgba(25,25,25,0.2);
-}
-
-.progress-section{
-    margin:40px 20px;
-}
-
-/*--------------------------------Work History*/
-
-.timeline-item{
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color:#fafafa;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::before{
-    content: attr(dates);
-    position: absolute;
-    left:2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo" , sans-serif;
-    font-weight: 500;
-    font-size: .8em;
-    padding: 0;
-    margin:0;
-}
-
-.timeline-item::after{
-    width:12px;
-    height:12px;
-    display:block;
-    top:2.4em;
-    position:absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
-}
 
 .history-heading{
     color: #fafafa;
@@ -379,7 +313,7 @@ footer .youtube-link i:hover{
 button[type="submit"]{
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #e84610;
+    background-color: #ff5c11;
     color:#fafafa;
 }
 
