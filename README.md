@@ -5,3 +5,4 @@ I used different media players for the audio and video that are build in to HTML
 I used some hover animations to make the website feel a little more alive and interactive.
 I changed some of the code that I based this off by changing the speed of some animations 
 and colours as the palette for this site desired something a little different.
+Some of this code is based off the previous videos that we used in lessons.
